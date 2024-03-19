@@ -22,7 +22,7 @@ export const register = async (req: Request, res: Response): Promise<void> => {
     res.status(201).json({ token });
   } catch (error) {
     console.log(error);
-    res.status(500).json({ error: `hubon un error` });
+    res.status(500).json({ error: `hubo un error` });
   }
 };
 
